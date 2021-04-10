@@ -42,10 +42,3 @@ class MainActivity : AppCompatActivity() {
             }
     }
 }
-
-//let's create an adapter
-
-
-
-
-//LET'S RUN THE APP
