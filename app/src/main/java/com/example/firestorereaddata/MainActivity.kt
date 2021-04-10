@@ -45,26 +45,7 @@ class MainActivity : AppCompatActivity() {
 
 //let's create an adapter
 
-class UserItem(val user: List<User>): Item<ViewHolder>(){
 
-    override fun getLayout(): Int {
-       return R.layout.user_row
-    }
 
-    override fun bind(viewHolder: ViewHolder, position: Int) {
-        //Let's populate our views using data from firestore
-
-        val user = user[position]
-        viewHolder.itemView.textView_firstname.text = user.firstname
-        viewHolder.itemView.textView_lastname.text = user.lastname
-        viewHolder.itemView.textView_birthplace.text = user.birthplace
-    }
-
-}
-
-class User(val firstname: String, val lastname: String, val birthplace: String){
-    constructor(): this("","","")
-    //Empty constructor needed for firestore
-}
 
 //LET'S RUN THE APP
