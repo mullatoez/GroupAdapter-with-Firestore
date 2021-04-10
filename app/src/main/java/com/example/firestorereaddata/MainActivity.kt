@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerviewMain.layoutManager = LinearLayoutManager(this)
         fetchData()
 
+        /*
+        * Hello there, Am glad you are using this
+        * Don't forget to subscribe to my youtube channel to help me create more awesome videos
+        * */
+
     }
 
     private fun fetchData() {
