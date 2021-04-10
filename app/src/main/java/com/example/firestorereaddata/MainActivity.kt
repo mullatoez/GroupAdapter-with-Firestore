@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.recyclerviewMain.layoutManager = LinearLayoutManager(this)
-
         fetchData()
 
     }
